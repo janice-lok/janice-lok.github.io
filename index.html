@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Janice Lok</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css"> 
-  <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta charset="utf-8">
+    <title>Janice Lok</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 
 <body>
 
     <div id="navbar">
         <div>
-            <a href="#intro-container"><img src="JL_logo.jpeg" id="navbar-logo"></a>
+            <a href="#intro-container"><img src="JL_logo.png" id="navbar-logo"></a>
         </div>
         <div id="navbar-items">
             <ul>
@@ -27,6 +27,7 @@
 
     <div id="intro-container" class="vp-container">
         <div class="body-container">
+            <img src="im janice.png">
             <div id="intro-txt">
                 <div id="intro-big-txt">
                     <h1>I'm Janice,</h1>
@@ -34,6 +35,7 @@
                 <div id="intro-sm-txt">
                     <p>an aspiring front-end developer.</p>
                 </div>
+                <a href="#project-container">Learn more</a>
             </div>
         </div>
     </div>
@@ -49,7 +51,7 @@
                             <div class="content-details">
                                 <ul>
                                     <li><img src="location.svg" class="content-icon">NOWPAIN Clinic</li>
-                                    <li><img src="github.png" class="content-icon"><a href="https://github.com/janice-lok/ui-nowpain">janice-lok/ui-nowpain</a></li>
+                                    <li><img src="github-yellow.svg" class="content-icon"><a href="https://github.com/janice-lok/ui-nowpain">janice-lok/ui-nowpain</a></li>
                                 </ul>
                             </div>
                             <div class="content-description">
@@ -79,7 +81,7 @@
                             <div class="content-details">
                                 <ul>
                                     <li><img src="location.svg" class="content-icon">Home</li>
-                                    <li><img src="github.png" class="content-icon"><a href="https://github.com/janice-lok/janice-lok.github.io">janice-lok/janice-lok.github.io</a></li>
+                                    <li><img src="github-yellow.svg" class="content-icon"><a href="https://github.com/janice-lok/janice-lok.github.io">janice-lok/janice-lok.github.io</a></li>
                                 </ul>
                             </div>
                             <div class="content-description">
@@ -95,7 +97,7 @@
                         </div>
 
                         <div class="content-img-container">
-                            <img src="project-2.jpg" class="content-img">
+                            <img src="project-2.png" class="content-img">
                         </div>
                     </div>
                 </div>
@@ -107,10 +109,10 @@
                             <div class="content-details">
                                 <ul>
                                     <li><img src="location.svg" class="content-icon">NYU Tandon</li>
-                                    <li><img src="github.png" class="content-icon">No source code available</li>
+                                    <li><img src="github-yellow.svg" class="content-icon">No source code available</li>
                                 </ul>
                             </div>
-                            <div class="content-description">
+                            <div class="content-description" id="proj-3">
                                 <p>Designed an application package with UI and control algorithm to rapidly and accurately simulate performance curves for a chemical engineering flow control system.</p>
                             </div>
                             <div class="content-skills">
@@ -133,11 +135,11 @@
                             <div class="content-details">
                                 <ul>                                
                                     <li><img src="location.svg" class="content-icon">ConEdison CEB</li>
-                                    <li><img src="github.png" class="content-icon">No source code available</li>
+                                    <li><img src="github-yellow.svg" class="content-icon">No source code available</li>
                                 </ul>
                             </div>
-                            <div class="content-description">
-                                <p>Automated data compression analysis for sets of 100 time-series<br>data points using Python pandas. Integrated swinging door <br> algorithm to return two compression parameters per data point.</p>
+                            <div class="content-description" id="proj-4">
+                                <p>Automated data compression analysis for sets of 100 time-series data points using Python pandas. Integrated swinging door algorithm to <br> return two compression parameters per data point.</p>
                             </div>
                             <div class="content-skills">
                                 <ul>
@@ -151,7 +153,10 @@
                     </div>
                 </div>
 
-                <p id="resume-download"><a href="Janice Lok Resume.pdf">View full resume<img src="download.png" class="download-icon"></a></p>
+                <div id="resume-download">
+                    <p><a href="Janice Lok Resume.pdf">View full resume</a></p>
+                    <img src="download.svg" class="download-icon">
+                </div>
             </div>
         </div>
     </div>
@@ -261,7 +266,7 @@
                             </div>
                             <div class="flip-card-back">
                             <p> As managing deadlines and multiple projects/tasks have inevitably been a part of my academic studies and internship work, time management and workload prioritization 
-                                are valuable skills that I have honed over the course of my undergraduate career.
+                                are valuable skills that I have continuously honed over the course of my undergraduate career.
                             </p>
                             </div>
                         </div>
@@ -283,7 +288,7 @@
                 <div id="about-subtext">
                     <h2>So glad you're here.</h2>
                     <p>
-                        <span>Hi there, welcome to my website! I'm Janice Lok, an aspiring <br> front-end developer based in New York City.</span>
+                        <span>Hey there! I'm Janice Lok, an aspiring front-end developer based in NYC.</span>
                         <span>I'm excited about front-end development because of the opportunity to not only work on real-world applications
                              with my detailed and structured approach, but also to create visual, user-friendly products as a highly visual person.</span> 
                         <span>I graduated from NYU with a background in chemical engineering. <br> My hobbies include playing volleyball, weightlifting, and photography. (See more below!)</span> 
@@ -336,9 +341,9 @@
     </div>
     <div id="icons">
         <ul>
-            <li><a href="https://www.linkedin.com/in/janicelok/"><img src="linkedin.png" class="icon"></a></li>
-            <li><a href="https://github.com/janice-lok"><img src="github.png" class="icon"></a></li>
-            <li><a href=""><img src="sendmessage.png" class="icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/janicelok/"><img src="linkedin.svg" class="icon"></a></li>
+            <li><a href="https://github.com/janice-lok"><img src="github-teal.svg" class="icon"></a></li>
+            <li><a href=""><img src="sendmessage.svg" class="icon"></a></li>
         </ul>
     </div>
 </footer>
