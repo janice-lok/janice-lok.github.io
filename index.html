@@ -12,30 +12,32 @@
 <body>
 
     <div id="navbar">
-        <div>
-            <a href="#intro-container"><img src="JL_logo.png" id="navbar-logo"></a>
-        </div>
-        <div id="navbar-items">
-            <ul>
-                <li class="navbar-item"><a href="#project-container">PROJECTS</a></li>
-                <li class="navbar-item"><a href="#skills-container">SKILLS</a></li>
-                <li class="navbar-item"><a href="#about-container">ABOUT ME</a></li>
-                <li class="navbar-item"><a href="#contact">CONTACT</a></li>    
-            </ul>
+        <div id="navbar-container">
+            <div id="navbar-logo">
+                <a href="#intro-container"><img src="JL_logo.png"></a>
+            </div>
+            <div id="navbar-items">
+                <a href="#project-container">PROJECTS</a>
+                <a href="#skills-container">SKILLS</a>
+                <a href="#about-container">ABOUT ME</a>
+                <a href="#contact">CONTACT</a>
+            </div>
         </div>
     </div>
 
     <div id="intro-container" class="vp-container">
         <div class="body-container">
-            <img src="im janice.png">
-            <div id="intro-txt">
-                <div id="intro-big-txt">
-                    <h1>I'm Janice,</h1>
+            <div id="intro-subcontainer">
+                <img src="im janice.png">
+                <div id="intro-txt">
+                    <div id="intro-big-txt">
+                        <h1>I'm Janice,</h1>
+                    </div>
+                    <div id="intro-sm-txt">
+                        <p>an aspiring front-end developer.</p>
+                    </div>
+                    <a href="#project-container">Learn more</a>
                 </div>
-                <div id="intro-sm-txt">
-                    <p>an aspiring front-end developer.</p>
-                </div>
-                <a href="#project-container">Learn more</a>
             </div>
         </div>
     </div>
@@ -69,7 +71,7 @@
                         </div>
 
                         <div class="content-img-container">
-                            <img src="project-1.png" class="content-img">
+                            <a href="project-1.png"><img src="project-1.png" class="content-img"></a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +99,7 @@
                         </div>
 
                         <div class="content-img-container">
-                            <img src="project-2.png" class="content-img">
+                            <a href="project-2.png"><img src="project-2.png" class="content-img"></a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +125,7 @@
                         </div>
 
                         <div class="content-img-container">
-                            <img src="project-3.jpg" class="content-img">
+                            <a href="project-3.jpg"><img src="project-3.jpg" class="content-img"></a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +141,7 @@
                                 </ul>
                             </div>
                             <div class="content-description" id="proj-4">
-                                <p>Automated data compression analysis for sets of 100 time-series data points using Python pandas. Integrated swinging door algorithm to <br> return two compression parameters per data point.</p>
+                                <p>Automated data compression analysis for sets of 100 time-series data points using Python pandas. Integrated swinging door algorithm to return two compression parameters per data point.</p>
                             </div>
                             <div class="content-skills">
                                 <ul>
@@ -148,7 +150,7 @@
                             </div>
                         </div>
                         <div class="content-img-container">
-                            <img src="project-4.jpg" class="content-img">
+                            <a href="project-4.jpg"><img src="project-4.jpg" class="content-img"></a>
                         </div>
                     </div>
                 </div>
@@ -286,12 +288,12 @@
             <div id="about-subsection1">
                 <img src="headshot.jpg" id="headshot" alt="professional headshot of Janice.">
                 <div id="about-subtext">
-                    <h2>So glad you're here.</h2>
+                    <h2>Hello, World!</h2>
                     <p>
-                        <span>Hey there! I'm Janice Lok, an aspiring front-end developer based in NYC.</span>
+                        <span>I'm Janice Lok, an aspiring front-end developer based in NYC.</span>
                         <span>I'm excited about front-end development because of the opportunity to not only work on real-world applications
                              with my detailed and structured approach, but also to create visual, user-friendly products as a highly visual person.</span> 
-                        <span>I graduated from NYU with a background in chemical engineering. <br> My hobbies include playing volleyball, weightlifting, and photography. (See more below!)</span> 
+                        <span>I graduated from NYU with a background in chemical engineering. My hobbies include playing volleyball, weightlifting, and photography. (See more below!)</span> 
                     </p>
                 </div>
             </div>
@@ -333,18 +335,22 @@
 </body>
 
 <footer>
-    <div id="contact">
-        <ul>
-            <li>email: <a href="mailto:nycjanicelok@gmail.com">nycjanicelok@gmail.com</a></li>
-            <li>phone: (000) 000-0000</li>
-        </ul>
-    </div>
-    <div id="icons">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/janicelok/"><img src="linkedin.svg" class="icon"></a></li>
-            <li><a href="https://github.com/janice-lok"><img src="github-teal.svg" class="icon"></a></li>
-            <li><a href=""><img src="sendmessage.svg" class="icon"></a></li>
-        </ul>
+    <div id="footer-container">
+        <div id="footer-content">
+            <div id="contact">
+                <ul>
+                    <li>email: <a href="mailto:nycjanicelok@gmail.com">nycjanicelok@gmail.com</a></li>
+                    <li>phone: (000) 000-0000</li>
+                </ul>
+            </div>
+            <div id="icons">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/janicelok/"><img src="linkedin.svg" class="icon"></a></li>
+                    <li><a href="https://github.com/janice-lok"><img src="github-teal.svg" class="icon"></a></li>
+                    <li><a href=""><img src="sendmessage.svg" class="icon"></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
 
